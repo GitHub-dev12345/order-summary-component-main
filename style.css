@@ -9,13 +9,12 @@ font-family: 'Red Hat Display', sans-serif; */
 /* body design css */
 body{
     width: 1440px;
-    margin-top: 50px;
+    margin-top: 90px;
     background: url('images/pattern-background-desktop.svg')  hsl(225, 100%, 94%);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-
 
 /* Outer Card Container Css Code */
 .container{
@@ -168,6 +167,28 @@ body{
 /*  cancel word  Active-status Css Code */
 .payBox .order:hover{
     color: black;
+}
+
+/* Footer Design Css Code */
+footer{
+    font-size: 1.2rem;
+    font-weight: bold;
+    float: right;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+footer a{
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+footer a:hover{
+    color: green;
 }
 
 /* Responsive Webpage Css Code */
