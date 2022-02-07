@@ -14,7 +14,7 @@ body{
     margin: 50px auto;
     background: url('images/pattern-background-desktop.svg')  hsl(225, 100%, 94%);
     background-position: center -95px;
-    background-size: contain;
+    background-size: 100% 60%;
     background-repeat: no-repeat;
 }
 
@@ -197,7 +197,8 @@ footer a:hover{
 
 @media screen and (max-width: 453px) {
     body{
-        background: hsl(225, 100%, 94%);
+        background: url('images/pattern-background-mobile.svg') hsl(225, 100%, 94%);
+        background-size: 100% 100%;
     }
     .container{
         width: 340px;
