@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Red+Hat+Display:wght@500;700;900&display=swap");
+/* font-family: 'Lexend Deca', sans-serif;
+font-family: 'Red Hat Display', sans-serif; */
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* body design css */
+body {
+  width: 100%;
+  max-width: 1440px;
+  margin: 50px auto;
+  background: url("../images/pattern-background-desktop.svg") #e0e8ff;
+  background-position: center -95px;
+  background-size: 100% 60%;
+  background-repeat: no-repeat;
+}
+
+/* Outer Card Container Css Code */
+.container {
+  max-width: 415px;
+  margin: auto;
+  border-radius: 20px;
+  -webkit-transform: scale(0.89);
+          transform: scale(0.89);
+  -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0.9);
+          box-shadow: 0 0 0 rgba(0, 0, 0, 0.9);
+}
+
+/* Imgbox Design Css Code */
+.imgbox {
+  min-height: 200px;
+  min-width: 100px;
+  background: url("../images/illustration-hero.svg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+/* Inner Design Card Css Code */
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: white;
+  padding: 40px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.card h1 {
+  font-size: 1.65rem;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 900;
+  padding: 10px;
+  margin-top: -15px;
+  margin-bottom: 8px;
+  opacity: 0.7;
+}
+
+/* Card Paragraphy Css Code */
+.para {
+  font-size: 16px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 500;
+  color: #7280a7;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Music Box Design Css Code */
+.music {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  background: #f5f7ff;
+}
+
+.music a {
+  text-decoration: underline;
+  color: #3829e0;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 900;
+  font-size: 13px;
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+.music a:hover {
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+/* Music Icon Css code */
+.icon {
+  margin-right: 12px;
+}
+
+/* Music Plan Design Css Code */
+.plan {
+  font-size: 16px;
+  font-family: 'Red Hat Display', sans-serif;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #7280a7;
+  color: black;
+  opacity: 0.8;
+  margin-right: 50px;
+}
+
+.price {
+  font-weight: 600;
+  color: #7280a7;
+}
+
+/* Proceed payment & Cancel Order Box Css Code */
+.payBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+}
+
+/* Proceed Button Css Code */
+.btn {
+  width: 205%;
+  font-weight: bold;
+  font-family: 'Red Hat Display', sans-serif;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  border: transparent;
+  background: #3829e0;
+  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.9);
+          box-shadow: 0 3px 10px rgba(0, 0, 0, 0.9);
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.6;
+}
+
+/* Cancel Order Word Css Code  */
+.order {
+  font-size: 14px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 900;
+  color: #7280a7;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.order:hover {
+  color: black;
+}
+
+/* Footer Design Css Code */
+footer {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: arial, sans-serif;
+  margin: 10px auto;
+  padding: 20px;
+  cursor: pointer;
+  word-spacing: 3px;
+}
+
+footer a {
+  color: red;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: green;
+}
+
+/* Responsive Webpage Css Code */
+@media screen and (max-width: 1500px) {
+  body {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 453px) {
+  body {
+    background: url("../images/pattern-background-mobile.svg") #e0e8ff;
+    background-size: 100% 100%;
+  }
+  .container {
+    width: 340px;
+    -webkit-transform: scale(0.82);
+            transform: scale(0.82);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .card h1 {
+    margin-top: -20px;
+    font-size: 1.4rem;
+  }
+  .para {
+    font-size: 15px;
+  }
+  .music {
+    width: 250px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .music a {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .icon {
+    margin: 15px;
+    margin-left: -2px;
+  }
+  .plan {
+    font-size: 15px;
+    font-weight: bolder;
+    color: black;
+    opacity: 0.9;
+    margin-right: 18px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+  }
+  .btn {
+    width: 178%;
+    margin-top: -15px;
+    border: none;
+  }
+}
+/*# sourceMappingURL=main.css.map */
